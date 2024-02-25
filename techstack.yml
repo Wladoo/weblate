@@ -1,0 +1,1301 @@
+repo_name: Wladoo/weblate
+report_id: fa8f9434130bbbdd400650dc31b1238f
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-25T10:29:09+00:00'
+requested_by: renovate[bot]
+provider: github
+branch: main
+detected_tools_count: 86
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/Wladoo/weblate
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/Wladoo/weblate
+  detection_source: Repo Metadata
+- name: PHP
+  description: A popular general-purpose scripting language that is especially suited
+    to web development
+  website_url: http://www.php.net/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/991/hwUcGZ41_400x400.jpg
+  detection_source_url: https://github.com/Wladoo/weblate
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  version: '3.8'
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/Wladoo/weblate/blob/main/requirements.txt
+  detection_source: Repo Metadata
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-03-02 11:44:13.000000000 Z
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/Wladoo/weblate/blob/main/requirements-optional.txt
+  detection_source: requirements-optional.txt
+  last_updated_by: Justin Hamade
+  last_updated_on: 2014-06-15 04:59:31.000000000 Z
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/Wladoo/weblate/blob/main/dev-docker/postgres-init/second_db.sql
+  detection_source: dev-docker/postgres-init/second_db.sql
+  last_updated_by: Michal Čihař
+  last_updated_on: 2019-10-14 10:44:34.000000000 Z
+- name: Bootstrap
+  description: Simple and flexible HTML, CSS, and JS for popular UI components and
+    interactions
+  website_url: http://getbootstrap.com/
+  version: 3.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/1101/C9QJ7V3X.png
+  detection_source_url: https://github.com/Wladoo/weblate/blob/main/scripts/yarn/yarn.lock
+  detection_source: scripts/yarn/package.json
+  last_updated_by: Michal Čihař
+  last_updated_on: 2022-12-08 09:42:37.000000000 Z
+- name: Reuse
+  description: "♻️ Reuse React components to create new ones"
+  website_url: https://github.com/diegohaz/reuse
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/9703/reuse.png
+  detection_source_url: https://github.com/Wladoo/weblate/blob/main/requirements-dev.txt
+  detection_source: requirements-dev.txt
+  last_updated_by: Michal Čihař
+  last_updated_on: 2023-02-02 16:14:07.000000000 Z
+- name: jQuery
+  description: The Write Less, Do More, JavaScript Library.
+  website_url: http://jquery.com/
+  version: 3.6.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg
+  detection_source_url: https://github.com/Wladoo/weblate/blob/main/scripts/yarn/yarn.lock
+  detection_source: scripts/yarn/package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-03-08 19:19:40.000000000 Z
+- name: MySQL
+  description: The world's most popular open source database
+  website_url: http://www.mysql.com
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1025/logo-mysql-170x170.png
+  detection_source_url: https://github.com/Wladoo/weblate/blob/main/requirements-optional.txt
+  detection_source: requirements-optional.txt
+  last_updated_by: Michal Čihař
+  last_updated_on: 2020-02-23 18:55:54.000000000 Z
+- name: PostgreSQL
+  description: A powerful, open source object-relational database system
+  website_url: http://www.postgresql.org/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
+  detection_source_url: https://github.com/Wladoo/weblate/blob/main/dev-docker/docker-compose.yml
+  detection_source: dev-docker/docker-compose.yml
+  last_updated_by: renovate[bot]
+  last_updated_on: 2022-10-24 08:17:38.000000000 Z
+- name: Redis
+  description: Open source (BSD licensed), in-memory data structure store
+  website_url: http://redis.io/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: In-Memory Databases
+  image_url: https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png
+  detection_source_url: https://github.com/Wladoo/weblate/blob/main/dev-docker/docker-compose.yml
+  detection_source: dev-docker/docker-compose.yml
+  last_updated_by: Renovate Bot
+  last_updated_on: 2022-04-27 23:08:50.000000000 Z
+- name: Browserify
+  description: Browser-side require() the node.js way
+  website_url: http://browserify.org/
+  version: 17.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/849/9esmqty2.png
+  detection_source_url: https://github.com/Wladoo/weblate/blob/main/scripts/yarn/yarn.lock
+  detection_source: scripts/yarn/package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-03-10 12:33:03.000000000 Z
+- name: Codecov
+  description: Hosted coverage reports with awesome features to enhance your CI workflow
+  website_url: https://codecov.io/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Code Coverage
+  image_url: https://img.stackshare.io/service/2673/Codecov_Mark_Circle_Pink.png
+  detection_source_url: https://github.com/Wladoo/weblate/blob/main/codecov.yml
+  detection_source: codecov.yml
+  last_updated_by: Michal Čihař
+  last_updated_on: 2020-04-06 13:08:46.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/Wladoo/weblate
+  detection_source: Repo Metadata
+- name: Docker Compose
+  description: Define and run multi-container applications with Docker
+  website_url: https://github.com/docker/compose
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Container Tools
+  image_url: https://img.stackshare.io/service/3136/docker-compose.png
+  detection_source_url: https://github.com/Wladoo/weblate/blob/main/dev-docker/docker-compose.yml
+  detection_source: dev-docker/docker-compose.yml
+  last_updated_by: Michal Čihař
+  last_updated_on: 2022-01-25 08:30:43.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Wladoo/weblate
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/Wladoo/weblate/blob/main/.github/workflows/closing.yml
+  detection_source: ".github/workflows/closing.yml"
+  last_updated_by: Michal Čihař
+  last_updated_on: 2022-12-29 13:16:35.000000000 Z
+- name: Mercurial
+  description: A free, distributed source control management tool
+  website_url: https://www.mercurial-scm.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1047/mercurial.png
+  detection_source_url: https://github.com/Wladoo/weblate/blob/main/requirements-optional.txt
+  detection_source: requirements-optional.txt
+  last_updated_by: Michal Čihař
+  last_updated_on: 2020-02-23 18:51:58.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/Wladoo/weblate/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Michal Čihař
+  last_updated_on: 2020-02-18 19:05:12.000000000 Z
+- name: RubyGems
+  description: Easily download, install, and use ruby software packages on your system
+  website_url: https://rubygems.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/Wladoo/weblate/blob/main/requirements-optional.txt
+  detection_source: requirements-optional.txt
+  last_updated_by: Justin Hamade
+  last_updated_on: 2014-06-15 04:59:31.000000000 Z
+- name: Selenium
+  description: Web Browser Automation
+  website_url: http://www.seleniumhq.org/
+  version: 4.8.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Browser Testing
+  image_url: https://img.stackshare.io/service/1517/sbUizSli_400x400.jpg
+  detection_source_url: https://github.com/Wladoo/weblate/blob/main/requirements-test.txt
+  detection_source: requirements-test.txt
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-02-17 23:54:22.000000000 Z
+- name: Sentry
+  description: See performance issues, fix errors faster, and optimize code health.
+  website_url: https://sentry.io/welcome/?utm_source=stackshare&utm_medium=link&utm_campaign=profile
+  open_source: true
+  hosted_saas: true
+  category: Monitoring
+  sub_category: Exception Monitoring
+  image_url: https://img.stackshare.io/service/191/default_9262326592c97828a2a4299dec085a3674dd05f4.png
+  detection_source_url: https://github.com/Wladoo/weblate/blob/main/scripts/yarn/package.json
+  detection_source: scripts/yarn/package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-03-10 12:33:03.000000000 Z
+- name: Yarn
+  description: A new package manager for JavaScript
+  website_url: https://yarnpkg.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/Wladoo/weblate/blob/main/scripts/yarn/yarn.lock
+  detection_source: scripts/yarn/yarn.lock
+  last_updated_by: Michal Čihař
+  last_updated_on: 2017-10-17 12:36:34.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/Wladoo/weblate/blob/main/scripts/yarn/package.json
+  detection_source: scripts/yarn/package.json
+  last_updated_by: Michal Čihař
+  last_updated_on: 2017-10-17 12:36:34.000000000 Z
+- name: pip
+  description: A package installer for Python
+  website_url: https://pypi.org/project/pip/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5559/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/Wladoo/weblate/blob/main/requirements-ci.txt
+  detection_source: requirements-ci.txt
+  last_updated_by: Michal Čihař
+  last_updated_on: 2022-01-12 07:48:52.000000000 Z
+- name: pre-commit
+  description: A slightly improved pre-commit hook for git
+  website_url: http://jish.github.io/pre-commit/
+  version: 3.1.1
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Git Tools
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/Wladoo/weblate/blob/main/requirements-lint.txt
+  detection_source: requirements-lint.txt
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-02-28 04:40:20.000000000 Z
+- name: Pillow
+  description: Python Imaging Library
+  website_url: https://python-pillow.github.io/
+  open_source: true
+  hosted_saas: false
+  category: Assets and Media
+  sub_category: Image Processing and Management
+  image_url: https://img.stackshare.io/service/2375/default_1f67b0ca7416a9f52beb655f90b5602d5ef74b75.jpg
+  detection_source_url: https://github.com/Wladoo/weblate/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Michal Čihař
+  last_updated_on: 2022-03-25 16:27:10.000000000 Z
+- name: Alpine Linux
+  description: Security-oriented, lightweight Linux distribution based on musl libc
+    and busybox
+  website_url: https://www.alpinelinux.org/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/6429/alpine_linux.png
+  detection_source_url: https://github.com/Wladoo/weblate/blob/main/dev-docker/docker-compose.yml
+  detection_source: dev-docker/docker-compose.yml
+  last_updated_by: renovate[bot]
+  last_updated_on: 2022-10-24 08:17:38.000000000 Z
+- name: Modernizr
+  description: Respond to your user’s browser features
+  website_url: https://modernizr.com/
+  version: 3.12.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2440/9TeXWBzR_400x400.jpg
+  detection_source_url: https://github.com/Wladoo/weblate/blob/main/scripts/yarn/yarn.lock
+  detection_source: scripts/yarn/package.json
+  last_updated_by: Michal Čihař
+  last_updated_on: 2022-12-08 09:42:37.000000000 Z
+- name: Prism
+  description: An extensible syntax highlighter, built with modern web standards
+  website_url: https://prismjs.com/
+  version: 1.29.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/10010/Screen_Shot_2012-07-31_at_21.57.03__400x400.png
+  detection_source_url: https://github.com/Wladoo/weblate/blob/main/scripts/yarn/yarn.lock
+  detection_source: scripts/yarn/package.json
+  last_updated_by: Michal Čihař
+  last_updated_on: 2022-12-08 09:42:37.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/Wladoo/weblate
+  detection_source: Repo Metadata
+- name: setuptools
+  website_url: https://github.com/pypa/setuptools
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/10517/647025.png
+  detection_source_url: https://github.com/Wladoo/weblate/blob/main/requirements-ci.txt
+  detection_source: requirements-ci.txt
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-03-08 13:55:45.000000000 Z
+- name: virtualenv
+  description: Local environment for python
+  website_url: https://virtualenv.pypa.io/en/latest/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/3581/no-img-open-source.png
+  detection_source_url: https://github.com/Wladoo/weblate/blob/main/requirements-ci.txt
+  detection_source: requirements-ci.txt
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-03-01 05:42:51.000000000 Z
+- name: Cython
+  description: The Cython compiler for writing C extensions for the Python language
+  package_url: https://pypi.org/project/Cython
+  version: 0.29.14
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19929/default_74a0c20721d3a0a1484d69586401591fe8993db2.png
+  detection_source_url: https://github.com/Wladoo/weblate/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-03-02 11:44:13.000000000 Z
+- name: Django
+  description: A high-level Python Web framework that encourages rapid development
+    and clean
+  package_url: https://pypi.org/project/Django
+  version: '3.2'
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19832/default_58dbe7b4d7ec447b62773209af0f9a31bbabf5bd.png
+  detection_source_url: https://github.com/Wladoo/weblate/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Michal Čihař
+  last_updated_on: 2023-02-27 14:55:39.000000000 Z
+  vulnerabilities:
+  - name: Django bypasses validation when using one form field to upload multiple
+      files
+    cve_id: CVE-2023-31047
+    cve_url: https://github.com/advisories/GHSA-r3xc-prgr-mg9p
+    detected_date: May 10
+    severity: critical
+    first_patched: 3.2.19
+  - name: SQL Injection in Django
+    cve_id: CVE-2022-28347
+    cve_url: https://github.com/advisories/GHSA-w24h-v9qh-8gxj
+    detected_date: Apr 23
+    severity: critical
+    first_patched: 3.2.13
+  - name: SQL Injection in Django
+    cve_id: CVE-2021-35042
+    cve_url: https://github.com/advisories/GHSA-xpfp-f569-q3p2
+    detected_date: Sep 23
+    severity: critical
+    first_patched: 3.2.5
+  - name: SQL Injection in Django
+    cve_id: CVE-2022-28346
+    cve_url: https://github.com/advisories/GHSA-2gwj-7jmv-h26r
+    detected_date: Apr 27
+    severity: critical
+    first_patched: 3.2.13
+  - name: Denial-of-service in Django
+    cve_id: CVE-2021-45115
+    cve_url: https://github.com/advisories/GHSA-53qw-q765-4fww
+    detected_date: Jan 13
+    severity: high
+    first_patched: 3.2.11
+  - name: Potential bypass of an upstream access control based on URL paths in Django
+    cve_id: CVE-2021-44420
+    cve_url: https://github.com/advisories/GHSA-v6rh-hp5x-86rv
+    detected_date: Dec 14
+    severity: high
+    first_patched: 3.2.10
+  - name: Path Traversal in Django
+    cve_id: CVE-2021-31542
+    cve_url: https://github.com/advisories/GHSA-rxjp-mfm9-w4wr
+    detected_date: Aug 22
+    severity: high
+    first_patched: 3.2.1
+  - name: 'Django vulnerable to Reflected File Download attack '
+    cve_id: CVE-2022-36359
+    cve_url: https://github.com/advisories/GHSA-8x94-hmjh-97hq
+    detected_date: Aug 12
+    severity: high
+    first_patched: 3.2.15
+  - name: Resource exhaustion in Django
+    cve_id: CVE-2023-24580
+    cve_url: https://github.com/advisories/GHSA-2hrw-hx67-34x6
+    detected_date: Feb 16
+    severity: high
+    first_patched: 3.2.18
+  - name: Information disclosure in Django
+    cve_id: CVE-2021-45116
+    cve_url: https://github.com/advisories/GHSA-8c5j-9r9f-c6w8
+    detected_date: Jan 13
+    severity: high
+    first_patched: 3.2.11
+  - name: Django has regular expression denial of service vulnerability in EmailValidator/URLValidator
+    cve_id: CVE-2023-36053
+    cve_url: https://github.com/advisories/GHSA-jh3w-4vvf-mjgr
+    detected_date: Jul 6
+    severity: high
+    first_patched: 3.2.20
+  - name: Header injection possible in Django
+    cve_id: CVE-2021-32052
+    cve_url: https://github.com/advisories/GHSA-qm57-vhq3-3fwf
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 3.2.2
+  - name: Directory-traversal in Django
+    cve_id: CVE-2021-45452
+    cve_url: https://github.com/advisories/GHSA-jrh2-hc4r-7jwx
+    detected_date: Jan 13
+    severity: moderate
+    first_patched: 3.2.11
+- name: GitPython
+  description: Python Git Library
+  package_url: https://pypi.org/project/GitPython
+  version: 2.1.15
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19867/default_bd86f80ade48cfe191d5781a2efa0e66fa22163a.png
+  detection_source_url: https://github.com/Wladoo/weblate/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-03-02 11:44:13.000000000 Z
+  vulnerabilities:
+  - name: GitPython vulnerable to remote code execution due to insufficient sanitization
+      of input arguments
+    cve_id: CVE-2023-40267
+    cve_url: https://github.com/advisories/GHSA-pr76-5cm5-w9cj
+    detected_date: Aug 12
+    severity: critical
+    first_patched: 3.1.32
+  - name: Untrusted search path under some conditions on Windows allows arbitrary
+      code execution
+    cve_id: CVE-2024-22190
+    cve_url: https://github.com/advisories/GHSA-2mqj-m65w-jghx
+    detected_date: Jan 11
+    severity: high
+    first_patched: 3.1.41
+  - name: GitPython vulnerable to Remote Code Execution due to improper user input
+      validation
+    cve_id: CVE-2022-24439
+    cve_url: https://github.com/advisories/GHSA-hcpj-qp55-gfph
+    detected_date: Dec 7
+    severity: high
+    first_patched: 3.1.30
+  - name: Blind local file inclusion
+    cve_id: CVE-2023-41040
+    cve_url: https://github.com/advisories/GHSA-cwvm-v4w8-q58c
+    detected_date: Sep 7
+    severity: moderate
+    first_patched: 3.1.37
+- name: Pygments
+  description: Pygments is a syntax highlighting package written in Python
+  package_url: https://pypi.org/project/Pygments
+  version: 2.6.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19858/default_4d761b2257a1435539d6dc92346974d9f1d55c70.png
+  detection_source_url: https://github.com/Wladoo/weblate/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Michal Čihař
+  last_updated_on: 2022-04-01 11:53:25.000000000 Z
+  vulnerabilities:
+  - name: Pygments vulnerable to Regular Expression Denial of Service (ReDoS)
+    cve_id: CVE-2021-27291
+    cve_url: https://github.com/advisories/GHSA-pq64-v7f5-gqh8
+    detected_date: Aug 22
+    severity: high
+    first_patched: 2.7.4
+  - name: Infinite Loop in Pygments
+    cve_id: CVE-2021-20270
+    cve_url: https://github.com/advisories/GHSA-9w8r-397f-prfh
+    detected_date: Aug 22
+    severity: high
+    first_patched: 2.7.4
+  - name: Pygments vulnerable to ReDoS
+    cve_id: CVE-2022-40896
+    cve_url: https://github.com/advisories/GHSA-mrwq-x4v8-fh7p
+    detected_date: Jul 21
+    severity: moderate
+    first_patched: 2.15.0
+- name: Sphinx
+  description: Python documentation generator
+  package_url: https://pypi.org/project/Sphinx
+  version: 6.1.3
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19866/default_bd86f80ade48cfe191d5781a2efa0e66fa22163a.png
+  detection_source_url: https://github.com/Wladoo/weblate/blob/main/docs/requirements.txt
+  detection_source: docs/requirements.txt
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-02-07 22:41:44.000000000 Z
+- name: boto3
+  description: The AWS SDK for Python
+  package_url: https://pypi.org/project/boto3
+  version: 1.19.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19840/default_1c41e593803157c668b26f27387160254f0f5371.png
+  detection_source_url: https://github.com/Wladoo/weblate/blob/main/requirements-optional.txt
+  detection_source: requirements-optional.txt
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-11-02 08:04:38.000000000 Z
+- name: celery
+  description: Distributed Task Queue
+  package_url: https://pypi.org/project/celery
+  version: 5.2.3
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19901/default_4f4fb10b6f169603a907dcb35a5a356d784e3bd3.png
+  detection_source_url: https://github.com/Wladoo/weblate/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Michal Čihař
+  last_updated_on: 2023-01-19 11:54:17.000000000 Z
+- name: charset-normalizer
+  description: The Real First Universal Charset Detector
+  package_url: https://pypi.org/project/charset-normalizer
+  version: 2.0.12
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/Wladoo/weblate/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-10-21 08:02:39.000000000 Z
+- name: coverage
+  description: Code coverage measurement for Python
+  package_url: https://pypi.org/project/coverage
+  version: 7.2.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19904/default_1d0eb6da6bdd342bb15f73d8f1721516ebacd1dc.png
+  detection_source_url: https://github.com/Wladoo/weblate/blob/main/requirements-test.txt
+  detection_source: requirements-test.txt
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-02-26 15:48:27.000000000 Z
+- name: cssselect
+  description: Cssselect parses CSS3 Selectors and translates them to XPath 1.0
+  package_url: https://pypi.org/project/cssselect
+  version: '1.2'
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20109/default_534fc53c55ef7fbc50263daa8ea6618be3c2b37d.png
+  detection_source_url: https://github.com/Wladoo/weblate/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: renovate[bot]
+  last_updated_on: 2022-10-27 14:03:39.000000000 Z
+- name: django-appconf
+  description: A helper class for handling configuration defaults of packaged apps
+    gracefully
+  package_url: https://pypi.org/project/django-appconf
+  version: 1.0.3
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20374/default_cf6e114d2165ab0bf32c948df1cde4f9dd7bea3c.png
+  detection_source_url: https://github.com/Wladoo/weblate/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Michal Čihař
+  last_updated_on: 2023-02-27 14:55:39.000000000 Z
+- name: django-compressor
+  description: Compresses linked and inline JavaScript or CSS into single cached files
+  package_url: https://pypi.org/project/django-compressor
+  version: '2.4'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20436/default_ddb692c01567b84e62be2bdf1939b66f9ea202da.png
+  detection_source_url: https://github.com/Wladoo/weblate/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Michal Čihař
+  last_updated_on: 2023-02-27 14:55:39.000000000 Z
+- name: django-cors-headers
+  description: Django-cors-headers is a Django application for handling the server
+    headers required for Cross-Origin Resource Sharing
+  package_url: https://pypi.org/project/django-cors-headers
+  version: 3.13.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20425/default_fd0859a8a050b41b42cc678a2c0c5f51ce41801a.png
+  detection_source_url: https://github.com/Wladoo/weblate/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Michal Čihař
+  last_updated_on: 2023-02-27 14:55:39.000000000 Z
+- name: django-crispy-forms
+  description: Best way to have Django DRY forms
+  package_url: https://pypi.org/project/django-crispy-forms
+  version: 2.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20185/default_2a50f212cd997c31353c0fb4401375a8310a3efe.png
+  detection_source_url: https://github.com/Wladoo/weblate/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Michal Čihař
+  last_updated_on: 2023-02-27 14:55:39.000000000 Z
+- name: django-debug-toolbar
+  description: A configurable set of panels that display various debug information
+    about the current request/response
+  package_url: https://pypi.org/project/django-debug-toolbar
+  version: 3.8.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20671/default_d50ff54d48cd87d57b8eda5d2d945fe31fb2ac8a.png
+  detection_source_url: https://github.com/Wladoo/weblate/blob/main/requirements-dev.txt
+  detection_source: requirements-dev.txt
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-12-04 12:18:52.000000000 Z
+- name: django-filter
+  description: Django-filter is a reusable Django application for allowing users to
+    filter querysets dynamically
+  package_url: https://pypi.org/project/django-filter
+  version: 2.4.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20158/default_31f4acd7a71628261771488a4d0f37f63bff1598.png
+  detection_source_url: https://github.com/Wladoo/weblate/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Michal Čihař
+  last_updated_on: 2023-02-27 14:55:39.000000000 Z
+- name: django-redis
+  description: Full featured redis cache backend for Django
+  package_url: https://pypi.org/project/django-redis
+  version: 4.11.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20669/default_8661a5c1d9ac6f06e853c3c1b9fe936bb7029ff7.png
+  detection_source_url: https://github.com/Wladoo/weblate/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Michal Čihař
+  last_updated_on: 2023-02-27 14:55:39.000000000 Z
+- name: djangorestframework
+  description: Web APIs for Django, made easy
+  package_url: https://pypi.org/project/djangorestframework
+  version: 3.11.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19870/default_d05f6f09935776629f62e8aed365805502c14921.png
+  detection_source_url: https://github.com/Wladoo/weblate/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Michal Čihař
+  last_updated_on: 2023-02-27 14:55:39.000000000 Z
+  vulnerabilities:
+  - name: Cross-site Scripting (XSS) in Django REST Framework
+    cve_id: CVE-2020-25626
+    cve_url: https://github.com/advisories/GHSA-fx83-3ph3-9j2q
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 3.11.2
+- name: filelock
+  description: A platform independent file lock
+  package_url: https://pypi.org/project/filelock
+  version: '3.7'
+  license: Unlicense
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20204/default_645e4030c04804ccf56eaad54caf7b7a73a44c64.png
+  detection_source_url: https://github.com/Wladoo/weblate/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: renovate[bot]
+  last_updated_on: 2022-12-28 17:05:56.000000000 Z
+- name: fluent.syntax
+  description: Localization library for expressive translations
+  package_url: https://pypi.org/project/fluent.syntax
+  version: 0.18.1
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/Wladoo/weblate/blob/main/requirements-optional.txt
+  detection_source: requirements-optional.txt
+  last_updated_by: Michal Čihař
+  last_updated_on: 2021-08-19 06:32:50.000000000 Z
+- name: google-cloud-translate
+  description: Google Cloud Translation API client library
+  package_url: https://pypi.org/project/google-cloud-translate
+  version: 3.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/Wladoo/weblate/blob/main/requirements-optional.txt
+  detection_source: requirements-optional.txt
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-03-01 02:47:14.000000000 Z
+- name: hiredis
+  description: Python wrapper for hiredis
+  package_url: https://pypi.org/project/hiredis
+  version: 1.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20297/default_fbb28b4e332d257da7e7f1277d3ce073b5270511.png
+  detection_source_url: https://github.com/Wladoo/weblate/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-02-03 00:37:30.000000000 Z
+- name: html2text
+  description: Turn HTML into equivalent Markdown-structured text
+  package_url: https://pypi.org/project/html2text
+  version: 2019.8.11
+  license: GPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19982/default_ccb381b493daf0d966e015380e1894fdbc637ad3.png
+  detection_source_url: https://github.com/Wladoo/weblate/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Michal Čihař
+  last_updated_on: 2020-02-20 08:43:48.000000000 Z
+- name: importlib-metadata
+  description: Read metadata from Python packages
+  package_url: https://pypi.org/project/importlib-metadata
+  version: '4.12'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20000/default_7c419d5d5f0cfad7886b95266eae7ba305cedacf.png
+  detection_source_url: https://github.com/Wladoo/weblate/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-03-02 11:44:13.000000000 Z
+- name: jsonschema
+  description: An implementation of JSON Schema validation for Python
+  package_url: https://pypi.org/project/jsonschema
+  version: '4.5'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19854/default_3fbfa1d88b4408e903227ac391490e8efb8dea58.png
+  detection_source_url: https://github.com/Wladoo/weblate/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Michal Čihař
+  last_updated_on: 2023-03-02 09:54:31.000000000 Z
+- name: lxml
+  description: Powerful and Pythonic XML processing library combining libxml2/libxslt
+    with the ElementTree API
+  package_url: https://pypi.org/project/lxml
+  version: 4.9.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19835/default_85689b353a3a9409328e253ea28d859d29151e0c.png
+  detection_source_url: https://github.com/Wladoo/weblate/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Michal Čihař
+  last_updated_on: 2022-08-10 12:39:10.000000000 Z
+- name: openpyxl
+  description: A Python library to read/write Excel 2010 xlsx/xlsm files
+  package_url: https://pypi.org/project/openpyxl
+  version: 2.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19895/default_4343f8bba4f6051641ffca8b4fbe9b099402c84d.png
+  detection_source_url: https://github.com/Wladoo/weblate/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-01-31 15:42:38.000000000 Z
+- name: packaging
+  description: Core utilities for Python packages
+  package_url: https://pypi.org/project/packaging
+  version: '23.1'
+  license: BSD-3-Clause,Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19894/default_f716e4bc541a9eb6e3f5b7a20d7c35355075b0b4.png
+  detection_source_url: https://github.com/Wladoo/weblate/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-01-08 19:22:58.000000000 Z
+- name: psycopg2-binary
+  description: Psycopg2 - Python-PostgreSQL Database Adapter
+  package_url: https://pypi.org/project/psycopg2-binary
+  version: 2.8.0
+  license: BSD-3-Clause-Attribution
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/Wladoo/weblate/blob/main/requirements-optional.txt
+  detection_source: requirements-optional.txt
+  last_updated_by: Michal Čihař
+  last_updated_on: 2022-01-12 07:46:41.000000000 Z
+- name: pycairo
+  description: Python interface for cairo
+  package_url: https://pypi.org/project/pycairo
+  version: 1.15.3
+  license: LGPL-2.0,MPL-1.1
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20713/default_6d273b82077a2813a9d15f9bfdde63d56fcd3fa3.png
+  detection_source_url: https://github.com/Wladoo/weblate/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Michal Čihař
+  last_updated_on: 2020-02-18 19:05:12.000000000 Z
+- name: pyparsing
+  description: Python parsing module
+  package_url: https://pypi.org/project/pyparsing
+  version: 3.0.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19881/default_2270bfab784e3d2c2d999d26b11ee478a9dad238.png
+  detection_source_url: https://github.com/Wladoo/weblate/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Michal Čihař
+  last_updated_on: 2022-07-18 13:48:19.000000000 Z
+- name: python-dateutil
+  description: Extensions to the standard Python datetime module
+  package_url: https://pypi.org/project/python-dateutil
+  version: 2.8.1
+  license: NRL
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19833/default_58dbe7b4d7ec447b62773209af0f9a31bbabf5bd.png
+  detection_source_url: https://github.com/Wladoo/weblate/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-03-02 11:44:13.000000000 Z
+- name: python-redis-lock
+  description: Lock context manager implemented via redis SETNX/BLPOP
+  package_url: https://pypi.org/project/python-redis-lock
+  version: '4.1'
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/Wladoo/weblate/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-03-02 11:44:13.000000000 Z
+- name: requests
+  description: Python HTTP for Humans
+  package_url: https://pypi.org/project/requests
+  version: 2.26.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19826/default_d7c684bf2673f008a9f02ac93901229297a22d7e.png
+  detection_source_url: https://github.com/Wladoo/weblate/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-06-13 08:50:17.000000000 Z
+  vulnerabilities:
+  - name: Unintended leak of Proxy-Authorization header in requests
+    cve_id: CVE-2023-32681
+    cve_url: https://github.com/advisories/GHSA-j8r2-6x86-q33q
+    detected_date: May 23
+    severity: moderate
+    first_patched: 2.31.0
+- name: responses
+  description: A utility library for mocking out the `requests` Python library
+  package_url: https://pypi.org/project/responses
+  version: 0.22.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20167/default_7c58f8c011d1676d1d010f43fec5e502e542d0a5.png
+  detection_source_url: https://github.com/Wladoo/weblate/blob/main/requirements-test.txt
+  detection_source: requirements-test.txt
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-10-12 08:03:51.000000000 Z
+- name: ruamel.yaml
+  description: Ruamel.yaml is a YAML parser/emitter that supports roundtrip preservation
+    of comments
+  package_url: https://pypi.org/project/ruamel.yaml
+  version: 0.16.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19918/default_c8be5290cb8d8a8b578535a2c6475d1057ff4ea4.png
+  detection_source_url: https://github.com/Wladoo/weblate/blob/main/requirements-optional.txt
+  detection_source: requirements-optional.txt
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2021-03-29 06:09:47.000000000 Z
+- name: setuptools
+  description: Easily download
+  package_url: https://pypi.org/project/setuptools
+  version: 65.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19831/default_65d1c12a133e1aa67ae96a1221c9c122ddf86c5f.png
+  detection_source_url: https://github.com/Wladoo/weblate/blob/main/docs/requirements.txt
+  detection_source: docs/requirements.txt
+  last_updated_by: pre-commit-ci[bot]
+  last_updated_on: 2023-02-01 19:01:19.000000000 Z
+- name: social-auth-core
+  description: Python social authentication made simple
+  package_url: https://pypi.org/project/social-auth-core
+  version: 4.3.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/Wladoo/weblate/blob/main/requirements-optional.txt
+  detection_source: requirements-optional.txt
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-06-13 08:44:15.000000000 Z
+- name: sphinx-rtd-theme
+  description: Read the Docs theme for Sphinx
+  package_url: https://pypi.org/project/sphinx-rtd-theme
+  version: 1.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20198/default_1b766c7727f93da29992cd7a2499f00a0ba7bc2d.png
+  detection_source_url: https://github.com/Wladoo/weblate/blob/main/docs/requirements.txt
+  detection_source: docs/requirements.txt
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-02-07 22:41:44.000000000 Z
+- name: sphinxcontrib-httpdomain
+  description: Sphinx domain for documenting HTTP APIs
+  package_url: https://pypi.org/project/sphinxcontrib-httpdomain
+  version: 1.8.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/Wladoo/weblate/blob/main/docs/requirements.txt
+  detection_source: docs/requirements.txt
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-02-07 22:41:44.000000000 Z
+- name: twine
+  description: Collection of utilities for publishing packages on PyPI
+  package_url: https://pypi.org/project/twine
+  version: 4.0.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19935/default_63c8e7696ded615c51302c06e54b0d0c8ae9af3f.png
+  detection_source_url: https://github.com/Wladoo/weblate/blob/main/requirements-test.txt
+  detection_source: requirements-test.txt
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-12-01 08:01:41.000000000 Z
+- name: user-agents
+  description: A library to identify devices
+  package_url: https://pypi.org/project/user-agents
+  version: '2.0'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20503/default_d5bf4c0fcc9533ca9cb10ce938464b618fa379e4.png
+  detection_source_url: https://github.com/Wladoo/weblate/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Michal Čihař
+  last_updated_on: 2022-04-01 11:53:25.000000000 Z
+- name: virtualenv
+  description: Virtual Python Environment builder
+  package_url: https://pypi.org/project/virtualenv
+  version: 20.20.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19970/default_1c8812e05cf754e8f654b8d86b3f025827f5bfb6.png
+  detection_source_url: https://github.com/Wladoo/weblate/blob/main/requirements-ci.txt
+  detection_source: requirements-ci.txt
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-03-01 05:42:51.000000000 Z
+- name: wheel
+  description: A built-package format for Python
+  package_url: https://pypi.org/project/wheel
+  version: 0.38.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19889/default_7182952cb92ae36151a754e2592ac68e6e6340df.png
+  detection_source_url: https://github.com/Wladoo/weblate/blob/main/requirements-ci.txt
+  detection_source: requirements-ci.txt
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-11-10 08:01:11.000000000 Z
+- name: zeep
+  description: A modern/fast Python SOAP client based on lxml / requests
+  package_url: https://pypi.org/project/zeep
+  version: 3.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20067/default_bb49fb0188726b8922387d8bb6e9b2cd0c3c0ea9.png
+  detection_source_url: https://github.com/Wladoo/weblate/blob/main/requirements-optional.txt
+  detection_source: requirements-optional.txt
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-11-05 07:43:30.000000000 Z
+- name: "@sentry/browser"
+  description: Official Sentry SDK for browsers
+  package_url: https://www.npmjs.com/@sentry/browser
+  version: 7.42.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18385/default_3918a37cf2f76449e061a2c79fb02113faa1391a.png
+  detection_source_url: https://github.com/Wladoo/weblate/blob/main/scripts/yarn/yarn.lock
+  detection_source: scripts/yarn/package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-03-10 12:33:03.000000000 Z
+- name: autosize
+  description: Autosize is a small
+  package_url: https://www.npmjs.com/autosize
+  version: 6.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18320/default_185a3d4e97cf62330a9efe7678914006c4eeb555.png
+  detection_source_url: https://github.com/Wladoo/weblate/blob/main/scripts/yarn/yarn.lock
+  detection_source: scripts/yarn/package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-02-15 14:16:52.000000000 Z
+- name: clipboard
+  description: Modern copy to clipboard. No Flash. Just 2kb
+  package_url: https://www.npmjs.com/clipboard
+  version: 2.0.11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16838/default_5c6919c5e02b8e6c83f3a2b23db5b6962e3caca0.png
+  detection_source_url: https://github.com/Wladoo/weblate/blob/main/scripts/yarn/yarn.lock
+  detection_source: scripts/yarn/package.json
+  last_updated_by: Michal Čihař
+  last_updated_on: 2022-12-08 09:42:37.000000000 Z
+- name: js-cookie
+  description: A simple, lightweight JavaScript API for handling cookies
+  package_url: https://www.npmjs.com/js-cookie
+  version: 3.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16441/default_89ba91277e3434b03295bb11d22736632df1d04f.png
+  detection_source_url: https://github.com/Wladoo/weblate/blob/main/scripts/yarn/yarn.lock
+  detection_source: scripts/yarn/package.json
+  last_updated_by: Michal Čihař
+  last_updated_on: 2022-12-08 09:42:37.000000000 Z
+- name: mousetrap
+  description: Simple library for handling keyboard shortcuts
+  package_url: https://www.npmjs.com/mousetrap
+  version: 1.6.5
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18018/image.png
+  detection_source_url: https://github.com/Wladoo/weblate/blob/main/scripts/yarn/yarn.lock
+  detection_source: scripts/yarn/package.json
+  last_updated_by: Michal Čihař
+  last_updated_on: 2022-12-08 09:42:37.000000000 Z
+- name: prismjs
+  description: Lightweight, robust, elegant syntax highlighting
+  package_url: https://www.npmjs.com/prismjs
+  version: 1.29.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16351/default_4cc3f31b8c64a6268fc123f0965a09d1b11180af.png
+  detection_source_url: https://github.com/Wladoo/weblate/blob/main/scripts/yarn/yarn.lock
+  detection_source: scripts/yarn/package.json
+  last_updated_by: Michal Čihař
+  last_updated_on: 2022-12-08 09:42:37.000000000 Z
+- name: slugify
+  description: Slugifies a String
+  package_url: https://www.npmjs.com/slugify
+  version: 1.6.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17389/default_33c3173e7d0e91f7cea0eab9883ca83b157bd4a5.png
+  detection_source_url: https://github.com/Wladoo/weblate/blob/main/scripts/yarn/yarn.lock
+  detection_source: scripts/yarn/package.json
+  last_updated_by: Michal Čihař
+  last_updated_on: 2022-12-08 09:42:37.000000000 Z
